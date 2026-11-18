@@ -1,0 +1,3 @@
+{
+  "detectors": ["email", "us-phone", "ssn"]
+}

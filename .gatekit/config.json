@@ -1,0 +1,8 @@
+{
+  "off": {
+    "vuln-scan": {
+      "reason": "this repo is a Go module; dependencies are pinned in go.sum, and tracks no npm package-lock.json, which is the only lockfile vuln-scan reads, so the check fails closed on every run",
+      "since": "2026-11-18"
+    }
+  }
+}
