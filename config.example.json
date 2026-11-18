@@ -1,0 +1,18 @@
+{
+  "workdir": "vmq-work",
+  "label": "land",
+  "first_label": "land-first",
+  "verify_cmd": ["./scripts/verify.sh"],
+  "verify_timeout_seconds": 1800,
+  "after_land": [],
+  "poll_seconds": 30,
+  "author_name": "merge queue",
+  "author_email": "vmq@example.invalid",
+  "repos": [
+    {
+      "name": "app",
+      "remote": "git@git.example.invalid:team/app.git",
+      "trunk": "main"
+    }
+  ]
+}
